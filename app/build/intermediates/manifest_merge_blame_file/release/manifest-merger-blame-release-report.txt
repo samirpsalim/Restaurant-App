@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.restaurantapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:6:5-26:19
+12        android:allowBackup="true"
+12-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\cd33f26b4f6a5be75c2c675ec5e179dc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:8:9-65
+15        android:extractNativeLibs="false"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/Theme.RestaurantApp" >
+21-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:14:9-51
+22        <activity
+22-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:16:9-24:20
+23            android:name="com.example.restaurantapp.MainActivity"
+23-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:17:13-41
+24            android:exported="true" >
+24-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:18:13-36
+25            <intent-filter>
+25-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:19:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:20:17-69
+26-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:22:17-77
+28-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.restaurantapp.PagerActivity" />
+31-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:25:9-50
+31-->C:\Users\SAMIR_P_SALIM\AndroidStudioProjects\RestaurantApp\app\src\main\AndroidManifest.xml:25:19-48
+32
+33        <uses-library
+33-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+34            android:name="androidx.window.extensions"
+34-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+35            android:required="false" />
+35-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+36        <uses-library
+36-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+37            android:name="androidx.window.sidecar"
+37-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+38            android:required="false" />
+38-->[androidx.window:window:1.0.0] C:\Users\SAMIR_P_SALIM\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+39    </application>
+40
+41</manifest>
