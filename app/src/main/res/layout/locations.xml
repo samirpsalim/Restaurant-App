@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="KAKKANADU"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/l1_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Phone"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location1" />
+
+    <TextView
+        android:id="@+id/phone_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="468767878"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/l1_phone"
+        app:layout_constraintStart_toEndOf="@+id/l1_phone"
+        app:layout_constraintTop_toTopOf="@+id/l1_phone" />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="10dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/l1_phone"
+        app:layout_constraintStart_toStartOf="@+id/l1_phone"
+        app:layout_constraintTop_toBottomOf="@+id/l1_phone" />
+
+    <TextView
+        android:id="@+id/email_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="restaurant.kakkanadu@rst.com"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/email1"
+        app:layout_constraintStart_toEndOf="@+id/email1"
+        app:layout_constraintTop_toTopOf="@+id/email1" />
+
+    <TextView
+        android:id="@+id/location2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="KOLENCHERY"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description1" />
+
+    <TextView
+        android:id="@+id/l2_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Phone"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location2" />
+
+    <TextView
+        android:id="@+id/phone_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="463546787"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/l2_phone"
+        app:layout_constraintStart_toEndOf="@+id/l2_phone"
+        app:layout_constraintTop_toTopOf="@+id/l2_phone" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="10dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/l2_phone"
+        app:layout_constraintStart_toStartOf="@+id/l2_phone"
+        app:layout_constraintTop_toBottomOf="@+id/l2_phone" />
+
+    <TextView
+        android:id="@+id/email_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="restaurant.kolenchery@rst.com"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/email2"
+        app:layout_constraintStart_toEndOf="@+id/email2"
+        app:layout_constraintTop_toTopOf="@+id/email2" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Address"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/email1"
+        app:layout_constraintTop_toBottomOf="@+id/email1" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="FUU FJFYKU VKYFJFKFFKYUFYF"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/address1"
+        app:layout_constraintTop_toTopOf="@+id/address1" />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Address"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/email2"
+        app:layout_constraintTop_toBottomOf="@+id/email2" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="OPP SUGUGGU HUKKYKK "
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/address2"
+        app:layout_constraintTop_toTopOf="@+id/address2" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/location2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/location2" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/description2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
