@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.restaurantapp.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/ProceedtoRegister"
+            app:destination="@+id/registerFragment"
+            tools:ignore="ExtraText"
+            />
+        <action
+            android:id="@+id/changePassword"
+            app:destination="@id/passwordFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.restaurantapp.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/passwordFragment"
+        android:name="com.example.restaurantapp.PasswordFragment"
+        tools:layout="@layout/fragment_password">
+    <action
+        android:id="@+id/returnToLogin"
+        app:destination="@id/loginFragment"
+        app:popUpTo="@id/passwordFragment"
+        app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>
