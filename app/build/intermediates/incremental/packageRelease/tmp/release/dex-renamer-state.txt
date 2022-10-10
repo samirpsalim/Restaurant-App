@@ -1,0 +1,4 @@
+#Mon Oct 10 21:54:26 IST 2022
+base.0=C\:\\Users\\SAMIR_P_SALIM\\AndroidStudioProjects\\RestaurantApp\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
